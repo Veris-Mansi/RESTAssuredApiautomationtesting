@@ -2,10 +2,23 @@ package files;
 
 public class resource {
 
-	public static String placeGetData()
+	public static String fetchData()
 	{
-		String resource="maps/api/place/nearbysearch/json";
+		String resource="/getusers";
 		return resource;
 		
 	}
+	public static String loginResource()
+	{
+		String resource="/login";
+		return resource;
+		
+	}
+	public static String registerResource()
+	{
+		String resource="/join";
+		return resource;
+		
+	}
+	
 }
